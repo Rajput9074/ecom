@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 0 5px #000;
+}
+
+.searchBox {
+    width: 200%;
+}
+
+.searchitem{  
+ position: absolute; 
+ top:36px;
+ left:563px;
+ display: list-item;
+ margin-top: 30px;
+ list-style: none;
+ z-index: 99;
+ background-color: #fff;
+ box-shadow: 0 0 2px #acacac;
+ width: 398px;
+}
+
+.searchResult {
+    padding: 10px;
+
+}

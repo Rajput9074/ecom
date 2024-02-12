@@ -1,0 +1,128 @@
+{
+  "seller": [
+    {
+      "id": "1",
+      "username": "rohit",
+      "email": "rohitrajput@gmail.com",
+      "password": 123456
+    },
+    {
+      "id": "ce0d",
+      "username": "anuj",
+      "email": "anuj@gmail.com",
+      "password": ""
+    },
+    {
+      "id": "6c74",
+      "username": "ram",
+      "email": "ram@gmail.com",
+      "password": "m123"
+    },
+    {
+      "id": "5758",
+      "username": "syam",
+      "email": "syam@gmail.com",
+      "password": "s123"
+    },
+    {
+      "id": "e91b",
+      "username": "deepak",
+      "email": "deepak@gmail.com",
+      "password": "d1234"
+    },
+    {
+      "id": "f653",
+      "username": "anuj",
+      "email": "anuj@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9360",
+      "username": "hjgh",
+      "email": "ghjg",
+      "password": "232"
+    },
+    {
+      "id": "3f08",
+      "username": "Rohit",
+      "email": "Rajput@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": "8c08",
+      "product_name": "real me 9 pro",
+      "product_price": "200000",
+      "product_category": "Mobile",
+      "product_description": "latest product for real me moble",
+      "product_image": "\"https://imgs.search.brave.com/B7TaQcVUs8DLj3WSFZBKbN-nEJzm7NXi2EcSElwXyRM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9iaWdwaWMv/YXBwbGUtaXBob25l/LTE0LXByby1tYXgt/LmpwZw\""
+    },
+    {
+      "id": "239b",
+      "product_name": "vivo",
+      "product_price": "100000",
+      "product_category": "mobiles",
+      "product_description": "latest vivo phone",
+      "product_image": "\"https://imgs.search.brave.com/csBwgNAgJVGyl8_Guv5kYCZLKp-e9hVGyUEfRqOBQ7o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjMxNzAzMzUyNTgt/ZjVlZDExODQ0YTQ5/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRCOGZI/ZGhkR05vZkdWdWZE/QjhmREI4Zkh3dw.jpeg\""
+    },
+    {
+      "id": "d07c",
+      "product_name": "speaker",
+      "product_price": "5000",
+      "product_category": "speaker",
+      "product_description": "latest sony speaker ",
+      "product_image": "\"https://imgs.search.brave.com/cz3Xb7Yf-DFdUAzNIKNG_88kq-5T3C9qEvuo7aY6XnI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/MDU4NDM2L3Bob3Rv/L3NwZWFrZXItZnJv/bnQtdmlldy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cW9X/TDMwdzRJLTZUQTM1/MDJWSkE4MDRUQlow/eVpQYVZKcHlkOUli/Y29xMD0\""
+    },
+    {
+      "id": "41d6",
+      "product_name": "Laptop",
+      "product_price": "100000",
+      "product_category": "laptop",
+      "product_description": "latest laptop",
+      "product_image": "\"https://media.istockphoto.com/id/1440150997/photo/home-laptop-and-young-black-couple-on-sofa-relaxing-on-internet-and-streaming-movie-online.webp?b=1&s=170667a&w=0&k=20&c=_WvhH69YIC6NHqLDvuTqgwKQHbeXioNHtDbWzvOmiOw=\""
+    },
+    {
+      "id": "5472",
+      "product_name": "Mens wear",
+      "product_price": "600",
+      "product_category": "Clothes",
+      "product_description": "new branded shirt ",
+      "product_image": "\"https://media.istockphoto.com/id/1633556705/photo/portrait-of-handsome-mid-adult-man-smiling-while-standing-isolated-against-white-background.webp?b=1&s=170667a&w=0&k=20&c=Jh1RG_W2t-o4WquekG_d1Wxuz3RerU-XPyJwTsOYRMM=\""
+    },
+    {
+      "id": "0442",
+      "product_name": "dress",
+      "product_price": "2000",
+      "product_category": "women wear",
+      "product_description": "nice dress",
+      "product_image": "\"https://media.istockphoto.com/id/1474166998/photo/excited-happy-pretty-young-businesswoman-achieve-goal-raised-hands-open-mouth-stock-photo.webp?b=1&s=170667a&w=0&k=20&c=zqiGPOwbDIdxz17km78tUnm1B0rvWCJoRckT5iqhwCA=\""
+    }
+  ],
+  "user": [
+    {
+      "id": "c6a1",
+      "username": "rohit rajput",
+      "email": "user1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "4d6f",
+      "username": "bharat",
+      "email": "user2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "dfb4",
+      "username": "deepak",
+      "email": "user3@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e0c2",
+      "username": "rahul",
+      "email": "user4@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

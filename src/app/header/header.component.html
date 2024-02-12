@@ -1,0 +1,74 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/">E-commerce</a>
+    
+      <form class="" role="search" *ngIf="menuType=='default'">
+        <input class="form-control me-2 searchBox" type="search" placeholder="Search" aria-label="Search" (keyup)="searchValue($event)" (blur)="clearSearch()">
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        <div class="searchBox">
+          <ul class="searchitem">
+            <li *ngFor="let data of searchResult" class="searchResult">
+              <a>{{data.product_name}}</a>
+    
+            </li>
+          </ul>
+        </div>
+      
+      </form>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" class="mx-1 p-2" [ngSwitch]="menuType">
+      
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngSwitchCase="'default'">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="seller-auth">Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "  routerLink="/user">login/signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  routerLink="">cart({{cardItems}})</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngSwitchCase="'user'">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="seller-auth">Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/user">{{user_name |titlecase}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "(click)="Userlogout()">Logout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  routerLink="">cart({{cardItems}})</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngSwitchCase="'seller'">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/seller-home">Product List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/seller-add-product">Add Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "(click)="logout()">Logout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" >{{seller_name | titlecase}}</a>
+          </li>
+        </ul>
+     
+      </div>
+
+    </div>
+  </nav>
+
+  

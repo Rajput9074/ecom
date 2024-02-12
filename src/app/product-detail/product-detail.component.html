@@ -1,0 +1,36 @@
+
+<div class="d-flex justify-content-center mt-4">
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{{product_image}}"  width="400" height="400" class="card-img-top" alt="Product Image">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body" >
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text" >Product Name: <b>{{product_info && product_info.product_name}}</b></p>
+                    <p class="card-text" >Product price: <b>{{product_info && product_info.product_price}}</b></p>
+                    <p class="card-text" >Category: <b>{{product_info && product_info.product_category}}</b></p>
+
+                    <div>
+                     
+                        <button class="btn btn-primary" (click)="addToCard()" *ngIf="!removeCart">Add to Cart</button>
+                        <button class="btn btn-primary" (click)="removeToCart(product_info.id ?? 0)" *ngIf="removeCart && product_info ">Remove to Cart</button>
+                        <button class="btn btn-primary m-2">Buy Now</button>
+                       </div>
+                       <p style="margin-left: 15px;"><b>Add Quantity</b></p>
+                       <div class="d-flex mx-4">
+                      
+                        <button class="btn btn-primary" (click)="add()">+</button>
+                         <span style="margin: 10px;">{{quantity}}</span>
+                        <button class="btn btn-primary ml-2" (click)="remove()">-</button>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

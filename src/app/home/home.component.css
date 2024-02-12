@@ -1,0 +1,15 @@
+.sliderImg{
+   height: 100%;
+   width: 100%;
+}
+/* .image-height{
+   height: 80vh;
+} */
+
+.slidrBtn {
+   color: #000 !important;
+}
+
+.img-fluid {
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86));
+}

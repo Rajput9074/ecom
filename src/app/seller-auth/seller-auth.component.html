@@ -1,0 +1,38 @@
+
+<div style="width: auto; padding-left: 450px;  margin-top: 100px">
+    <form #sellerForm="ngForm" (ngSubmit)="sellFormMethod(sellerForm.value)" *ngIf="showLogin">
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Username</label>
+            <input type="text" class="form-control" name="username" ngModel>
+        </div>
+
+        <div class="mb-3 w-5" style="width: 600px;">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" ngModel>
+        </div>
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" ngModel>
+        </div>
+
+        <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+        <div style="padding-left: 125px;">If you have already a account,<a (click)="openLoginPage()"> click to login</a></div>
+    </form>
+
+    <p>{{showError}}</p>
+    <form #sellerLogin="ngForm" (ngSubmit)="sellLoginForm(sellerLogin.value)" *ngIf="!showLogin">
+    
+        <div class="mb-3 w-5" style="width: 600px;">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" ngModel>
+        </div>
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" ngModel>
+        </div>
+
+        <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+          <div style="padding-left: 84px;"><a  style="padding-left: 125px;" (click)="signUpPage()"> Go Back to the signup</a></div>  
+     
+    </form>
+</div>

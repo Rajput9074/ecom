@@ -1,0 +1,33 @@
+<div class="container">
+
+    <form [formGroup]="productFormUpdate" (ngSubmit)="sellerProductUpdate()" class="centered-form">
+        <h2 style="margin-bottom: 30px;">Update Product</h2>
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Product Name</label>
+            <input type="text" class="form-control" name="product_name" formControlName="product_name">
+        </div>
+
+        <div class="mb-3 w-5" style="width: 600px;">
+            <label class="form-label">Product Price</label>
+            <input type="text" class="form-control" name="product_price" formControlName="product_price">
+        </div>
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Product Category</label>
+            <input type="text" class="form-control" name="product_category" formControlName="product_category">
+        </div>
+
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Product Description</label>
+            <input type="text" class="form-control" name="product_description" formControlName="product_description">
+        </div>
+
+        <div class="mb-3" style="width: 600px;">
+            <label class="form-label">Product Image</label>
+            <input type="text" class="form-control" name="product_image" formControlName="product_image">
+        </div>
+
+        <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+ 
+    </form>
+</div>
+
